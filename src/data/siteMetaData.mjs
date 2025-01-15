@@ -5,6 +5,7 @@ export const siteMetadata = {
   description: "Senior Full Stack Software Engineer",
   language: "en-us",
   theme: "light",
+  siteName: "anthonyrod.me",
   siteUrl: "https://anthony-rod.vercel.app",
   siteRepo: "https://github.com/sandokan815/portfolio-rod",
   siteLogo: "/favicon.ico",
