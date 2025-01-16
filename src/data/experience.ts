@@ -2,56 +2,57 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Senior Mobile Developer",
+    title: "Senior Full Stack Web Developer",
     organisation: {
-      name: "Charity Dynamics",
-      href: "https://charitydynamics.com",
+      name: "Experian",
+      href: "https://experian.com",
     },
-    date: "Dec 2022 - May 2024",
-    location: "Atlanta, GA, USA",
-    description: "Worked with over 120 mobile apps using cordova, ionic",
-  },
-  {
-    title: "Senior eCommerce Developer",
-    organisation: {
-      name: "TWO",
-      href: "https://two.io",
-    },
-    date: "Dec 2021 - Dec 2022",
-    location: "Oslo, Norway",
+    date: "Dec 2021 - Nov 2024",
+    location: "Dublin, Ireland - Remote",
     description:
-      "Built B2B BNPL payment gateway per eCommerce platform (Magento, WooCommerce, OpenCart, PrestaShop, NopCommerce)",
+      "I contributed to developing and maintaining cutting-edge web applications that supported the company’s data-driven solutions across industries such as financial services, healthcare, and eCommerce. My role involved designing and implementing scalable, secure, and user-friendly solutions, leveraging technologies like [Next.js, Node.js, Python, AWS",
   },
   {
-    title: "Team Lead/Project Manager",
+    title: "Full Stack Web Developer",
     organisation: {
-      name: "GreenEarth",
-      href: "https://greanearth.com",
+      name: "BAC Credomatic",
+      href: "https://www.baccredomatic.com",
     },
-    date: "Sep 2019 - Dec 2021",
-    location: "Batangas, Philippines",
+    date: "Jan 2019 - Dec 2021",
+    location: "San José, Costa Rica - Onsite",
     description:
-      "Lead development team consists of international devs and managed many kinds of web, mobile, eCommerce projects while working as DevOps.",
+      "My work focused on building secure and efficient solutions for credit card issuing, acquiring, and financial operations, utilizing modern technologies like Svelte, Python, AWS",
   },
   {
-    title: "Software Engineer",
+    title: "Backend Developer | Data Analyst",
     organisation: {
-      name: "CollinsHarper",
-      href: "https://collinsharper.com",
+      name: "Interfaz Software",
+      href: "http://interfazsoftware.net/",
     },
-    date: "Aug 2018 - Aug 2019",
-    location: "Otawa, Canada",
+    date: "Nov 2017 - Dec 2018",
+    location: "Alajuela, Costa Rica - Remote",
+    description:
+      "Built several outsourcing projects using different stacks mostly using backend stacks such as Node.js, NestJS, Django, Flask, FastAPI, Swagger, Postman",
+  },
+  {
+    title: "Frontend Developer",
+    organisation: {
+      name: "EL Lab Web - Design - Develop",
+      href: "",
+    },
+    date: "Nov 2016 - Oct 2017",
+    location: "Vancouver, Canada - Remote",
     description:
       "Built the several custom websites using Magento2 and different types of projects using React, Apollo-GraphQL, Node, Python, MongoDB, MySQL",
   },
   {
-    title: "Freelance Web Developer",
+    title: "Web Developer",
     organisation: {
-      name: "Upwork",
-      href: "https://upwork.com",
+      name: "ADT",
+      href: "https://www.adt.com/",
     },
-    date: "Feb 2012 - Sep 2018",
-    location: "Batangas, Philippines",
+    date: "Nov 2012 - Nov 2016",
+    location: "Georiga, United States - Remote",
     description:
       "Worked with different kinds of web technologies in the various kinds of web, mobile, eCommerce, chrome extension, HTML5 Game projects for global clients",
   },

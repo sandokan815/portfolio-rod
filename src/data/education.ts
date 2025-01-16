@@ -4,11 +4,11 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
     title: "Bachelor Of Applied Science - BASc, Computer Science",
     organisation: {
-      name: "Batangas State University",
-      href: "",
+      name: "Universidad Hispanicamericana",
+      href: "https://uh.ac.cr/",
     },
-    date: "2008-2012",
-    location: "Batangas, Philippines",
+    date: "2013-2017",
+    location: "San José, Costa Rica",
     description:
       "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
   },

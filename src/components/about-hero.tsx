@@ -4,12 +4,13 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
+// import heroProfileImg from "@/public/images/heroProfile.png";
 
 export default function AboutHero() {
   return (
-    <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
-      <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
+    // <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
+    <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center px-6 pt-10 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
+      {/* <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
             <Image
@@ -22,8 +23,8 @@ export default function AboutHero() {
             />
           </FadeUp>
         </AnimatePresence>
-      </div>
-      <div className="sm:1/2 w-full lg:w-1/2">
+      </div> */}
+      <div className="w-full">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
@@ -31,11 +32,18 @@ export default function AboutHero() {
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
-            <p className="mt-4 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn your idea into reality using top trend technologies in web
-              and mobile, eCommerce fields.
+            <p className="mt-8 text-lg font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
+              A versatile Fullstack Software Engineer with extensive experience
+              in remote work, specializing web and mobile development,
+              eCommerce, and blockchain technologies. Skilled in designing and
+              deploying robust, the tech stack using modern frameworks and
+              Excels in collaborative collaborative environments, leveraging
+              strong communication and teamwork skills to drive project success
+              and align with business goals. Passionate about delivering
+              seamless user experiences and staying ahead in the ever-evolving
+              tech landscape.
             </p>
-            <p className="mt-2 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
+            <p className="mt-2 text-lg font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Mastered basic programming languages such as &nbsp;
               <span className="text-accent">
                 JavaScript/TypeScript , PHP, Python
@@ -43,7 +51,7 @@ export default function AboutHero() {
               and got a chance to work with the almost available web & mobile
               frameworks in different role such as
             </p>
-            <p className="mt-2 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
+            <p className="mt-2 text-lg font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               <span className="text-accent">Web Developer</span>
               (Frontend/Backend/FullStack/DevOps),
               <br />
@@ -59,6 +67,12 @@ export default function AboutHero() {
               <span className="text-accent">Browser Extension Developer</span>
               (Chrome, Safari, Edge),
               <br />
+              <span className="text-accent">BlockChain Developer</span>
+              (Rust, Go, Haskell, Web3, Layer2, Smart Contract),
+              <br />
+              <span className="text-accent">HTML5 Game Developer</span>
+              (Racing, Card, SpinWheel),
+              <br />
               <br />
             </p>
           </FadeUp>
@@ -71,14 +85,14 @@ export default function AboutHero() {
             <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Philippines flag"
-                src="https://flagcdn.com/ph.svg"
+                alt="Costa Rica flag"
+                src="https://flagcdn.com/cr.svg"
                 width={15}
                 height={15}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Batangas, Philippines
+              Alajuela, Costa Rica
             </span>
           </FadeRight>
         </AnimatePresence>
