@@ -27,8 +27,8 @@ export default function AboutHero() {
       <div className="w-full">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
-            <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Anthony Rodríguez
+            <h1 className="text-5xl font-bold text-accent sm:text-6xl md:text-5xl lg:text-4xl xl:text-6xl">
+              Hi, I&apos;m Anthony Rodríguez Cuesta
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
@@ -37,11 +37,11 @@ export default function AboutHero() {
               in remote work, specializing web and mobile development,
               eCommerce, and blockchain technologies. Skilled in designing and
               deploying robust, the tech stack using modern frameworks and
-              Excels in collaborative collaborative environments, leveraging
-              strong communication and teamwork skills to drive project success
-              and align with business goals. Passionate about delivering
-              seamless user experiences and staying ahead in the ever-evolving
-              tech landscape.
+              Excels in collaborative environments, leveraging strong
+              communication and teamwork skills to drive project success and
+              align with business goals. Passionate about delivering seamless
+              user experiences and staying ahead in the ever-evolving tech
+              landscape.
             </p>
             <p className="mt-2 text-lg font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Mastered basic programming languages such as &nbsp;

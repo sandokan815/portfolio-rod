@@ -38,8 +38,8 @@ export default function LandingHero() {
         <div className="mx-auto max-w-5xl">
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
-              <h1 className="bg-accent bg-clip-text py-6 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
-                Anthony Rodríguez
+              <h1 className="bg-accent bg-clip-text py-6 text-4xl font-bold text-transparent sm:text-5xl md:text-6xl xl:text-7xl">
+                Anthony Rodríguez Cuesta
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
                 Senior Full Stack Software Engineer
@@ -49,16 +49,16 @@ export default function LandingHero() {
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
                 <span className="text-xl text-accent sm:text-3xl">Hi</span>,
                 I&apos;m
-                <span className="text-accent"> Anthony Rodríguez</span> , I have
-                been working as software developer for over 12 years in
-                different roles.
+                <span className="text-accent"> Anthony</span> , I have been
+                working as software developer for over 12 years in different
+                roles.
               </div>
             </FadeUp>
             <FadeUp key="role" duration={0.6} delay={0.4}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
                 <li>Frontend | Backend | Full Stack Web Developer</li>
                 <li>Hybrid | Native Mobile Developer</li>
-                <li>eCommerce | AI | DevOps Engineer</li>
+                <li>eCommerce | BlockChain | DevOps Engineer</li>
                 <li>Team Lead | Project Manager</li>
               </div>
             </FadeUp>
