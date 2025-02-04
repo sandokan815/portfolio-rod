@@ -1,7 +1,13 @@
 // import ContactButton from "@/components/contact-form/contact-button";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
-import { SiSkype, SiGmail, SiTelegram, SiDiscord } from "react-icons/si";
+import {
+  SiSkype,
+  SiGmail,
+  SiTelegram,
+  SiDiscord,
+  SiWhatsapp,
+} from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -24,6 +30,9 @@ export default function Footer() {
           </a>
           <a href="https://discordapp.com/users/anthonyroan" target="_blank">
             <SiDiscord className="ContactIcon" />
+          </a>
+          <a href={`tel:+${siteMetadata.phone}`}>
+            <SiWhatsapp className="ContactIcon" />
           </a>
         </div>
       </div>

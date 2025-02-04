@@ -16,5 +16,6 @@ export const siteMetadata = {
   github: "https://github.com/sandokan815",
   linkedin: "https://www.linkedin.com/in/anthony-rodriguez-cuesta",
   locale: "en-US",
+  phone: "506 6254 7394",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };
