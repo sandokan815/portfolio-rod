@@ -52,7 +52,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       href: "https://www.adt.com/",
     },
     date: "Nov 2012 - Nov 2016",
-    location: "Georiga, United States - Remote",
+    location: "Georgia, United States - Remote",
     description:
       "Worked with different kinds of web technologies in the various kinds of web, mobile, eCommerce, chrome extension, HTML5 Game projects for global clients",
   },
