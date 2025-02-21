@@ -22,13 +22,13 @@ export default function Footer() {
           <a href={`mailto:${siteMetadata.email}`} target="_blank">
             <SiGmail className="ContactIcon" />
           </a>
-          <a href="https://join.skype.com/invite/ohFFT17RHW7O" target="_blank">
+          <a href={`${siteMetadata.skype}`} target="_blank">
             <SiSkype className="ContactIcon" />
           </a>
-          <a href="https://t.me/anthonyroan" target="_blank">
+          <a href={`${siteMetadata.telegram}`} target="_blank">
             <SiTelegram className="ContactIcon" />
           </a>
-          <a href="https://discordapp.com/users/anthonyroan" target="_blank">
+          <a href={`${siteMetadata.discord}`} target="_blank">
             <SiDiscord className="ContactIcon" />
           </a>
           <a href={`tel:+${siteMetadata.phone}`}>

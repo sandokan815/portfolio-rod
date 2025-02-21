@@ -46,7 +46,7 @@ export default function AboutHero() {
             <p className="mt-2 text-lg font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Mastered basic programming languages such as &nbsp;
               <span className="text-accent">
-                JavaScript/TypeScript , PHP, Python
+                JavaScript/TypeScript, Python, Rust, PHP
               </span>{" "}
               and got a chance to work with the almost available web & mobile
               frameworks in different role such as
@@ -54,6 +54,9 @@ export default function AboutHero() {
             <p className="mt-2 text-lg font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               <span className="text-accent">Web Developer</span>
               (Frontend/Backend/FullStack/DevOps),
+              <br />
+              <span className="text-accent">BlockChain Developer</span>
+              (Rust, Go, Etherium, Web3, Layer-2, Solidity, Smart Contract),
               <br />
               <span className="text-accent">Native Mobile Developer</span>
               (Swift, Kotlin, Java),
@@ -64,11 +67,11 @@ export default function AboutHero() {
               <span className="text-accent">eCommerce Developer</span>
               (Magento, WooCommerce, OpenCart, PrestaShop),
               <br />
-              <span className="text-accent">Browser Extension Developer</span>
-              (Chrome, Safari, Edge),
+              <span className="text-accent">Google Apps Script Developer</span>
+              (Gmail, Sheet, Docs, Glide App Integration),
               <br />
-              <span className="text-accent">BlockChain Developer</span>
-              (Rust, Go, Haskell, Web3, Layer2, Smart Contract),
+              <span className="text-accent">Browser Extension Developer</span>
+              (Automation, Autofill, Notification, Scraping),
               <br />
               <span className="text-accent">HTML5 Game Developer</span>
               (Racing, Card, SpinWheel),
