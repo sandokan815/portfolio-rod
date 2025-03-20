@@ -7,7 +7,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Experian",
       href: "https://experian.com",
     },
-    date: "Dec 2021 - Nov 2024",
+    date: "Dec 2021 - Feb 2025",
     location: "Dublin, Ireland - Remote",
     description:
       "I contributed to developing and maintaining cutting-edge web applications that supported the company’s data-driven solutions across industries such as financial services, healthcare, and eCommerce. My role involved designing and implementing scalable, secure, and user-friendly solutions, leveraging technologies like Next.js, Node.js, Python, AWS",
