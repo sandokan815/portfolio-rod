@@ -2,7 +2,7 @@
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 import {
-  SiSkype,
+  SiMicrosoftteams,
   SiGmail,
   SiTelegram,
   SiDiscord,
@@ -22,8 +22,8 @@ export default function Footer() {
           <a href={`mailto:${siteMetadata.email}`} target="_blank">
             <SiGmail className="ContactIcon" />
           </a>
-          <a href={`${siteMetadata.skype}`} target="_blank">
-            <SiSkype className="ContactIcon" />
+          <a href={`${siteMetadata.teams}`} target="_blank">
+            <SiMicrosoftteams className="ContactIcon" />
           </a>
           <a href={`${siteMetadata.telegram}`} target="_blank">
             <SiTelegram className="ContactIcon" />

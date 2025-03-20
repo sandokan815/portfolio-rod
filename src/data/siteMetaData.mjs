@@ -15,7 +15,7 @@ export const siteMetadata = {
   email: "anthony.rod.dev@gmail.com",
   github: "https://github.com/sandokan815",
   linkedin: "https://www.linkedin.com/in/anthony-rodriguez-cuesta",
-  skype: "https://join.skype.com/invite/kfvfecjUmoQs",
+  teams: "https://teams.live.com/l/invite/FAAiPjGN0CX4PkkuQI",
   discord: "https://discordapp.com/users/anthonyroan",
   telegram: "https://t.me/anthonyroan",
   locale: "en-US",

@@ -20,13 +20,8 @@ import {
   SiIonic,
   SiReact,
   SiKotlin,
-  // SiPrisma,
-  // SiNestjs,
-  // SiLaravel,
-  // SiAwsamplify,
-  // DB
-  // SiPostgresql
-  // SiHomebrew,
+  SiWebflow,
+  SiRetool,
 } from "react-icons/si";
 import {
   // FramerMotionIcon,
@@ -60,6 +55,10 @@ import NodejsSvg from "@/public/icons/nodejs.svg";
 import DjangoSvg from "@/public/icons/django.svg";
 import NestjsSvg from "@/public/icons/nestjs.svg";
 import LaravelSvg from "@/public/icons/laravel.svg";
+
+// No-Code
+import SoftrSvg from "@/public/icons/Softr.svg";
+import BubbleSvg from "@/public/icons/Bubble.svg";
 
 // eCommerce
 import OpenCartSvg from "@/public/icons/Opencart.svg";
@@ -255,6 +254,27 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Laravel",
         icon: LaravelSvg,
+      },
+    ],
+  },
+  {
+    sectionName: "Low-Code | No-Code",
+    skills: [
+      {
+        name: "Webflow",
+        icon: SiWebflow,
+      },
+      {
+        name: "Bubble",
+        icon: BubbleSvg,
+      },
+      {
+        name: "Retool",
+        icon: SiRetool,
+      },
+      {
+        name: "SOFTR",
+        icon: SoftrSvg,
       },
     ],
   },

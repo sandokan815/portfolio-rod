@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
+import CursorTrailCanvas from "./cursor-trail-canvas";
 // import heroProfileImg from "@/public/images/heroProfile.png";
 
 export default function AboutHero() {
@@ -24,6 +25,7 @@ export default function AboutHero() {
           </FadeUp>
         </AnimatePresence>
       </div> */}
+      <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <div className="w-full">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
